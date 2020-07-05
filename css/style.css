@@ -1,0 +1,66 @@
+#header-nav{
+	background-color: gray;
+}
+.container{
+	margin: 0px;
+	width: 100%
+}
+.navbar-toggle{
+	position: relative;
+	top: -60px;
+}
+.navbar-brand p span{
+	vertical-align: middle;
+}
+#nav-list{
+	margin: 20px;
+}
+#nav-list a span{
+	font-size: 1.8em;
+}
+#nav-list a{
+	color: red;
+	text-align: center;
+}
+#nav-list a:hover{
+	background: maroon;
+}
+#collapsable-nav a {
+	font-size:1em;
+}
+#collapsable-nav a span{
+	font-size: 1em;
+	margin-right: 3px; }
+@media (min-width: 992px){
+	
+	}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+	#header-nav{
+		height: 120px;
+	}
+}
+
+
+
+@media (max-width: 767px){
+	#header-nav{
+		height: 80px;
+	}
+	.navbar-brand{
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1{
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+	.navbar-brand p {
+		font-size: .6em;
+		margin-top: 12px;
+	}
+	.navbar-brand p img{
+		height: 20px;
+	}
+}
